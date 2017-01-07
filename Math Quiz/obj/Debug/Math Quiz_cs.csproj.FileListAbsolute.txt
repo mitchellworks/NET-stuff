@@ -1,0 +1,12 @@
+c:\Users\kempb\Documents\Visual Studio 2013\Projects\Math Quiz\Math Quiz\bin\Debug\Math Quiz.exe.config
+c:\Users\kempb\Documents\Visual Studio 2013\Projects\Math Quiz\Math Quiz\obj\Debug\Math Quiz.exe
+c:\Users\kempb\Documents\Visual Studio 2013\Projects\Math Quiz\Math Quiz\obj\Debug\Math Quiz.pdb
+C:\Users\mitchellworks\Documents\am_workspace\BYUI\net-stuff\NET-stuff\Math Quiz\bin\Debug\Math Quiz.exe.config
+C:\Users\mitchellworks\Documents\am_workspace\BYUI\net-stuff\NET-stuff\Math Quiz\obj\Debug\Math Quiz.exe
+C:\Users\mitchellworks\Documents\am_workspace\BYUI\net-stuff\NET-stuff\Math Quiz\obj\Debug\Math Quiz.pdb
+C:\Users\mitchellworks\Documents\am_workspace\BYUI\net-stuff\NET-stuff\Math Quiz\bin\Debug\Math Quiz.exe
+C:\Users\mitchellworks\Documents\am_workspace\BYUI\net-stuff\NET-stuff\Math Quiz\bin\Debug\Math Quiz.pdb
+C:\Users\mitchellworks\Documents\am_workspace\BYUI\net-stuff\NET-stuff\Math Quiz\obj\Debug\Math Quiz_cs.csprojResolveAssemblyReference.cache
+C:\Users\mitchellworks\Documents\am_workspace\BYUI\net-stuff\NET-stuff\Math Quiz\obj\Debug\Math_Quiz.Form1.resources
+C:\Users\mitchellworks\Documents\am_workspace\BYUI\net-stuff\NET-stuff\Math Quiz\obj\Debug\Math_Quiz.Properties.Resources.resources
+C:\Users\mitchellworks\Documents\am_workspace\BYUI\net-stuff\NET-stuff\Math Quiz\obj\Debug\Math Quiz_cs.csproj.GenerateResource.Cache
