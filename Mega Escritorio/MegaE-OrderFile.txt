@@ -1,0 +1,19 @@
+{
+	"order":
+	{
+		"width":"12 in"
+		"length":"12 in"
+		"extraSurfacePrice":"$0"
+
+		"numberOfDrawers":"3"
+		"drawerPrice":"$150"
+
+		"material":"oak"
+		"materialPrice":"$0"
+
+		"rushDeadline":14days"
+		"rushPrice":"$0"
+
+		"totalPrice":"$350"
+	}
+}
