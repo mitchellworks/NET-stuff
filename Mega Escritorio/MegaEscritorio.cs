@@ -8,7 +8,7 @@ namespace MegaEscritorio
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Welcome to Mega Escritorio ordering system.\n Press any key to continue.");
+            Console.WriteLine("Welcome to the Mega Escritorio custom desk store.\n Press any key to continue.");
             Console.ReadLine();
 
             int[] rushPrices = new int[9];
@@ -89,7 +89,6 @@ namespace MegaEscritorio
 
             return material;
         }
-
         static void ReadPrices(int[] rushPrices)
         {
             try
@@ -109,7 +108,6 @@ namespace MegaEscritorio
                 Console.WriteLine(eRead.Message);
             }
         }
-
         static int PromptRush()
         {
             int rushDays = 0;
@@ -136,7 +134,6 @@ namespace MegaEscritorio
 
             return rushDays;
         }
-
         static int CalcPrice(int width, int length, int drawers, string material, int rushDays, ref int surfacePrice, ref int drawerPrice, ref int materialPrice, ref int rushPrice, int [] rushPrices)
         {
             surfacePrice = (((length * width) - 1000) * 5);
@@ -197,7 +194,6 @@ namespace MegaEscritorio
             return totalPrice;
 
         }
-
         static void DisplayOrder(int width, int length, int drawers, string material, int rushDays, int surfacePrice, int drawerPrice, int materialPrice, int rushPrice, int totalPrice)
         {
             Console.WriteLine("\nYour Order is: ");
@@ -217,7 +213,6 @@ namespace MegaEscritorio
             Console.WriteLine("Total Price: $" + totalPrice);
 
         }
-
          static void WriteOrder(int width, int length, int surfacePrice, int drawers, int drawerPrice, string material, int materialPrice, int rushDays, int rushPrice, int totalPrice)
         {
             StreamWriter writer;

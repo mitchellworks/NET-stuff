@@ -1,0 +1,5 @@
+C:\Users\mitchellworks\Documents\am_workspace\BYUI\net-stuff\NET-stuff\Team Mega\obj\x86\Debug\Team Mega.csprojResolveAssemblyReference.cache
+C:\Users\mitchellworks\Documents\am_workspace\BYUI\net-stuff\NET-stuff\Team Mega\bin\Debug\ConsoleApplication.exe
+C:\Users\mitchellworks\Documents\am_workspace\BYUI\net-stuff\NET-stuff\Team Mega\bin\Debug\ConsoleApplication.pdb
+C:\Users\mitchellworks\Documents\am_workspace\BYUI\net-stuff\NET-stuff\Team Mega\obj\x86\Debug\ConsoleApplication.exe
+C:\Users\mitchellworks\Documents\am_workspace\BYUI\net-stuff\NET-stuff\Team Mega\obj\x86\Debug\ConsoleApplication.pdb
