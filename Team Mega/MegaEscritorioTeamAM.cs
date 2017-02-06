@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using System.Windows.Forms;
 
 //set up the possible wood types
 enum woodMaterial
@@ -30,6 +31,10 @@ namespace MegaEscritorio
     {
         static void Main(string[] args)
         {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
+
             // before we start, give a welcome message
             Console.WriteLine("Welcome to the Mega Escritorio custom desk store.\n Press any key to continue.");
             Console.ReadLine();
@@ -150,7 +155,7 @@ namespace MegaEscritorio
 
             do
             {
-                Console.WriteLine("\nDo you need your ordere rushed? Please enter a deadline of 3, 5, or 7 days. \nOtherwise please hit ENTER for the standard 14 days.");
+                Console.WriteLine("\nDo you need your order rushed? Please enter a deadline of 3, 5, or 7 days. \nOtherwise please hit ENTER for the standard 14 days.");
                 string rushString = Console.ReadLine();
                 try
                 {
