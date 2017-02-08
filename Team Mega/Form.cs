@@ -32,7 +32,8 @@ namespace MegaEscritorio
             deskOrder.length = int.Parse(textBox2.Text);
             deskOrder.drawers = int.Parse(textBox3.Text);
             deskOrder.material = listBox1.Text;
-            deskOrder.rushDays = int.Parse(textBox4.Text);
+            deskOrder.rushDays = int.Parse(listBox2.Text);
+            
 
             MegaProgram.ReadPrices(rushPrices);
             MegaProgram.CalcPrice(ref deskOrder, ref surfacePrice, ref drawerPrice, ref materialPrice, ref rushPrice, rushPrices);

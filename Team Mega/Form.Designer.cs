@@ -38,10 +38,10 @@
             this.label5 = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.listBox2 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // label1
@@ -133,21 +133,15 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(15, 287);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(252, 32);
+            this.label6.Size = new System.Drawing.Size(304, 48);
             this.label6.TabIndex = 9;
-            this.label6.Text = "Do you need your order rushed? \r\nPlease enter a deadline of 3, 5, or 7 days.";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(358, 287);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
-            this.textBox4.TabIndex = 10;
+            this.label6.Text = "Do you need your order rushed? \r\nPlease select a deadline of 3, 5, or 7 days for " +
+    "rush.\r\nPlease select 14 for standard delivery.";
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(129, 375);
+            this.button1.Location = new System.Drawing.Point(129, 437);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(329, 23);
             this.button1.TabIndex = 11;
@@ -158,7 +152,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(200, 334);
+            this.label7.Location = new System.Drawing.Point(200, 385);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(108, 16);
             this.label7.TabIndex = 12;
@@ -167,21 +161,35 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(358, 334);
+            this.label8.Location = new System.Drawing.Point(355, 385);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(0, 16);
             this.label8.TabIndex = 13;
+            // 
+            // listBox2
+            // 
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.ItemHeight = 16;
+            this.listBox2.Items.AddRange(new object[] {
+            "3",
+            "5",
+            "7",
+            "14"});
+            this.listBox2.Location = new System.Drawing.Point(358, 287);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.Size = new System.Drawing.Size(100, 68);
+            this.listBox2.TabIndex = 14;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(501, 410);
+            this.ClientSize = new System.Drawing.Size(501, 472);
+            this.Controls.Add(this.listBox2);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label5);
@@ -211,9 +219,9 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.ListBox listBox2;
     }
 }
