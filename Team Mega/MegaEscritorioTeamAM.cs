@@ -16,7 +16,7 @@ enum woodMaterial
 namespace MegaEscritorio
 {
     //set up the class so we can have desk order objects
-    class DeskOrder
+    public class DeskOrder
     {
         public int width;
         public int length;
@@ -27,7 +27,7 @@ namespace MegaEscritorio
     }
 
     //here's where the main program runs
-    class MegaProgram
+    public class MegaProgram
     {
         static void Main(string[] args)
         {
@@ -75,8 +75,7 @@ namespace MegaEscritorio
 
         }
 
-
-        static int PromptMeta(string prompt, string eMsg, int min, int max)
+        public static int PromptMeta(string prompt, string eMsg, int min, int max)
         {
             // user input is a string, which we'll change to an integer within the min/max
             int theNumber = 0;
@@ -103,7 +102,7 @@ namespace MegaEscritorio
             return theNumber;
 
         }
-        static string PromptMaterial()
+        public static string PromptMaterial()
         {
             //this one only has a string, no number, so I made it a different method
             string material = "";
@@ -128,7 +127,7 @@ namespace MegaEscritorio
 
             return material;
         }
-        static void ReadPrices(int[] rushPrices)
+        public static void ReadPrices(int[] rushPrices)
         {
             try
             {
@@ -148,7 +147,7 @@ namespace MegaEscritorio
                 Console.WriteLine(eRead.Message);
             }
         }
-        static int PromptRush()
+        public static int PromptRush()
         {
             // calculate the extra rush pricing, if any. Allow the user to hit ENTER for regular pricing
             int rushDays = 0;
@@ -176,7 +175,7 @@ namespace MegaEscritorio
 
             return rushDays;
         }
-        static void CalcPrice(
+        public static void CalcPrice(
             ref DeskOrder deskOrder, ref int surfacePrice, ref int drawerPrice, ref int materialPrice, ref int rushPrice, int[] rushPrices)
         {
             // take all the selections and use switches and calcs to get total price. Write this price directly to the deskOrder object (other prices are temporary so not kept there)
@@ -245,7 +244,7 @@ namespace MegaEscritorio
             deskOrder.totalPrice = (200 + surfacePrice + drawerPrice + materialPrice + rushPrice);
 
         }
-        static void DisplayOrder(DeskOrder deskOrder, int surfacePrice, int drawerPrice, int materialPrice, int rushPrice)
+        public static void DisplayOrder(DeskOrder deskOrder, int surfacePrice, int drawerPrice, int materialPrice, int rushPrice)
         {
             // tell the user what we did
             Console.WriteLine("\nYour Order is: ");
@@ -265,7 +264,7 @@ namespace MegaEscritorio
             Console.WriteLine("Total Price: $" + deskOrder.totalPrice);
 
         }
-        static void WriteOrder(DeskOrder deskOrder, int surfacePrice, int drawerPrice, int materialPrice, int rushPrice)
+        public static void WriteOrder(DeskOrder deskOrder, int surfacePrice, int drawerPrice, int materialPrice, int rushPrice)
         {
             // tell the file what we did
             StreamWriter writer;
